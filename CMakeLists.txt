@@ -5,7 +5,7 @@ add_executable(
 
 add_resource(duck mallard.tga)
 
-# Pull in pico libraries that we need
+# Pull in pico libraries 
 target_link_libraries(duck pico_stdlib pico_display)
 
 # create map/bin/hex file etc.
